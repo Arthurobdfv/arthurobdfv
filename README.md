@@ -1,6 +1,5 @@
 # Hi, I'm Arthuro Verissimo 👋
 
-
 Welcome to my GitHub profile!  
 I'm a passionate developer focused on building game engines, web applications, and creative projects that blend technology and art. You can find my portfolio at [arthuroverissimo.com](https://arthuroverissimo.com/).
 <br>Itch.io [arthuro-verissimo.itch.io](https://arthuro-verissimo.itch.io/)
