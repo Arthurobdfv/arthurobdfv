@@ -15,13 +15,28 @@ I'm a passionate developer focused on building game engines, web applications, a
 
 ## 🚀 Featured Projects
 
+### [Avalon](https://github.com/Arthurobdfv/Avalon/tree/feature/Client_Server_Handling_Reestructure)
+An MMO prototype built in Unity with an **authoritative game server architecture**, designed to validate MMO mechanics and explore scalable multiplayer patterns.
+- **Tech:** Unity, C#
+- **Multiplayer Modes:**
+  - **Local (Offline):** Full gameplay loop for single-player testing
+  - **Local Multiplayer:** LAN-based play with local loopback transport
+  - **Central Server (Planned):** Future implementation for online play
+- **Architecture Highlights:**
+  - Custom packet-based communication layer (`AvalonPacketHandler`, `ClientPacketHandler`, `ServerPacketHandler`)
+  - Modular client/server communication managers with observer pattern support
+  - Map-scoped packet delivery for efficient network traffic
+  - Player and observer connection management with entity synchronization
+  - Tick-based combat system with event-driven damage resolution
+- **Focus:** Authoritative server design, real-time multiplayer networking, and scalable MMO architecture.
+
 ### [WebGLEngine](https://github.com/Arthurobdfv/WebGLEngine) · [Live Demo](https://arthuroverissimo.com/WebGLEngine/)
 A JavaScript/WebGL rendering engine, designed to evolve into a full game engine.  
 - **Tech:** JavaScript, HTML, CSS
 - **Focus:** Real-time graphics and game engine architecture.
 
 ### [ArthuroGameEngine](https://github.com/Arthurobdfv/ArthuroGameEngine)
-A C++ game engine project where I’m deepening my understanding of computer graphics.
+A C++ game engine project where I'm deepening my understanding of computer graphics.
 - **Tech:** C++, C
 - **Focus:** Low-level graphics programming and engine design.
 
@@ -34,9 +49,9 @@ A modular web app for browsing, searching, and exploring Digimon data, evolution
 
 ## 🛠️ Skills & Interests
 
-- **Languages:** JavaScript, TypeScript, C++, HTML, CSS, SCSS, C
-- **Frameworks:** Angular
-- **Topics:** Game Engines, WebGL, Computer Graphics, Web Development, AI-assisted Development
+- **Languages:** JavaScript, TypeScript, C++, C#, HTML, CSS, SCSS, C
+- **Frameworks:** Angular, Unity
+- **Topics:** Game Engines, WebGL, Computer Graphics, Web Development, AI-assisted Development, Multiplayer Networking
 
 ---
 
